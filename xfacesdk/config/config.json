@@ -14,7 +14,7 @@
                 "top_k" : 10,
                 "backend" : "opencv",
                 "target" : "cpu",
-                "save" : false,
+                "save" : true,
                 "vis" : true
             },
 

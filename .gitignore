@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+
+# directories
+build/
+3rdparty/src/
+3rdparty/dlib/
+logs/
+doc/largest_selfie.jpg
+count_code.py
+.vscode

@@ -1,0 +1,36 @@
+
+{
+    "SDK" : {
+        "detector" : "YuNet",
+        "recognizer" : "SFace"
+    },
+
+    "detector" : {
+        "YuNet" : {
+                "model_path" : "3rdparty/model/face_detection_yunet_2022mar.onnx",
+                "input_path" : "doc/largest_selfie.jpg",
+                "conf_threshold" : 0.9,
+                "nms_threshold" : 0.3,
+                "top_k" : 10,
+                "backend" : "opencv",
+                "target" : "cpu",
+                "save" : false,
+                "vis" : true
+            },
+
+        "LBP" : {
+            "model_path" : "3rdparty/model/lbpcascade_frontalface_improved.xml",
+            "input_path" : "doc/10_1.jpg"
+        }
+    },
+
+    "recognizer" : {
+        "SFace" : {
+            "model_path" : "3rdparty/model/face_recognition_sface_2021dec.onnx",
+            "cosine_threshold" : 0.363,
+            "normL2_threshold" : 1.128
+        }
+    }
+
+
+}

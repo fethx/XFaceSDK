@@ -16,6 +16,7 @@
 |   开发环境   |  版本         |
 | ----------- | -----------   |
 | Linux       | Ubuntu 20.04.6|
+| C++         | C++17         |
 | CMake       | 3.16.3        |
 | [OpenCV](https://github.com/opencv/opencv/releases/)| 4.7.0 |
 | [json](https://github.com/nlohmann/json) | 3.11.2 |

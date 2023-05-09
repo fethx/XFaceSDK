@@ -1,10 +1,11 @@
 /*
  * @Description: 使用工厂模式创建不同的 detector
  * @Date: 2023-05-02 06:39:09
- * @LastEditTime: 2023-05-06 00:08:34
+ * @LastEditTime: 2023-05-09 03:20:33
  * @FilePath: /XFaceSDK/xfacesdk/include/xfacesdk/detector.h
  */
-// #include <memory>
+#pragma once
+
 #include <fstream>
 
 #include <opencv2/opencv.hpp>

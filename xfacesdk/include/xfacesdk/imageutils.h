@@ -1,9 +1,11 @@
 /*
  * @Description: 
  * @Date: 2023-05-03 00:44:50
- * @LastEditTime: 2023-05-06 00:08:16
+ * @LastEditTime: 2023-05-09 03:20:25
  * @FilePath: /XFaceSDK/xfacesdk/include/xfacesdk/imageutils.h
  */
+#pragma once
+
 #include <opencv2/opencv.hpp>
 
 namespace XFace {

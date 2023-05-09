@@ -4,7 +4,8 @@
  * @LastEditTime: 2023-05-06 01:15:43
  * @FilePath: /XFaceSDK/xfacesdk/include/xfacesdk/recognizer.h
  */
-// #include <memory>
+#pragma once
+
 #include <fstream>
 
 #include <opencv2/opencv.hpp>

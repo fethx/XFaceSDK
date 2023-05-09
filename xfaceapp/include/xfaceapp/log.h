@@ -1,9 +1,11 @@
 /*
  * @Description: 
  * @Date: 2023-05-03 07:25:15
- * @LastEditTime: 2023-05-06 00:12:59
+ * @LastEditTime: 2023-05-09 03:20:49
  * @FilePath: /XFaceSDK/xfaceapp/include/xfaceapp/log.h
  */
+#pragma once
+
 #include <spdlog/spdlog.h>
 #include "spdlog/async.h"
 #include <spdlog/sinks/daily_file_sink.h>
